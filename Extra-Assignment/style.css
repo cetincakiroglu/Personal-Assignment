@@ -1,3 +1,12 @@
+/*media */
+ 
+@media screen and (min-width: 693px){
+    #main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 /*universal styling*/
 
 body{
@@ -93,20 +102,4 @@ button{
     color: white;
     letter-spacing: 2px;
     margin-top: 115px;
-}
-
-/*media */
- 
-@media screen and (min-width: 693px){
-    #main{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (min-width:300px){
-    #main{
-        display: flex;
-        flex-direction: column;
-    }
 }
