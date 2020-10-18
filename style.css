@@ -1,0 +1,122 @@
+/*universal adjustments*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Monda', sans-serif;
+    background-color: #014b79;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+h2{
+    font-weight: lighter;
+}
+h3{
+    font-weight: lighter;
+    font-size: 2.5rem;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: 5px 0px;
+}
+p{
+   margin: 10px 0px;
+}
+
+#main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 40px;
+
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding-right: 40px;
+    padding-top: 10px;
+    line-height: 50px;
+}
+button{
+    text-align: center;
+    display: inline-block;
+    margin-top: 80px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.basic, .premium, .standard{
+    border: .5px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0px;
+}
+.container-1, .container-2, .container-3{
+   
+    margin: 20px;
+    width: 400px;
+    height: 700px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.price-1, .price-2, .price-3{
+    border: 1px solid transparent;
+    padding: 0;
+    margin: 0;
+    height: 160px;
+}
+.description{
+    background-color: white;
+}
+
+/*Styling each item*/
+
+.basic{
+    background-color: #d39d05;
+    color: white;
+}
+.price-1{
+    background-color: #ecb514;
+    color: white;
+}
+.standard{
+    background-color: #7e1f4b;
+    color: white;
+}
+.price-2{
+    background-color: #97285b;
+    color: white;
+}
+.premium{
+    background-color: #15636d;
+    color: white;
+}
+.price-3{
+    background-color: #2e808b;
+    color: white;
+}
+.btn-1{
+    background-color: #d39d05;
+    color: white;
+}
+.btn-2{
+    background-color: #7e1f4b;
+    color: white;
+}
+.btn-3{
+    background-color: #15636d;
+    color: white;
+}
+/*media */
+@media screen and (max-width: 800px) and (min-width: 300px){
+    #main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
