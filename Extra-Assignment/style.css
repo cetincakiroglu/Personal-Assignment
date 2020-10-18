@@ -1,0 +1,112 @@
+/*universal styling*/
+
+body{
+    margin-top: 10%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*container styling*/
+
+.container-1, .container-2, .container-3, .container-4{
+    border: 2px solid #d9d9dd;
+    margin: 20px;
+    height: 500px;
+    width: 350px;
+    border-radius: 4px;
+}
+.header, .header-2, .header-3, .header-4{
+    background-color: white;
+    border: 2px solid #d9d9dd;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+}
+.price{
+    padding-top: 50px;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+}
+h3{
+    padding-top: 15px;
+    margin-top: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 1.75rem;
+    margin-top: 80px;
+    font-weight: 400;
+}
+p{
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+    font-weight: lighter;
+}
+button{
+    margin-top: 90px;
+    padding: 15px 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+/*individiual styling*/
+
+.a{
+    font-weight: 700;
+}
+.header-3{
+    background-color: white;
+    border: 2px solid #FB9537;
+}
+.container-3{
+    border: 2px solid #FB9537;
+}
+.btn-1, .btn-2{
+    background-color: #69579C;
+    color: white;
+    letter-spacing: 2px;
+}
+.btn-3{
+    background-color: #FB9537;
+    color: white;
+    letter-spacing: 2px;
+}
+.btn-4{
+    background-color: #A29FAA;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 115px;
+}
+
+/*media */
+ 
+@media screen and (min-width: 693px){
+    #main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:3 00px) and {
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+}
