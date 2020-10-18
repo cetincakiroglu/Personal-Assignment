@@ -1,3 +1,11 @@
+/*media */
+@media screen and (max-width: 800px) and (min-width: 300px){
+    #main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 /*universal adjustments*/
 *{
     box-sizing: border-box;
@@ -71,9 +79,6 @@ button{
     margin: 0;
     height: 160px;
 }
-.description{
-    background-color: white;
-}
 
 /*Styling each item*/
 
@@ -113,10 +118,6 @@ button{
     background-color: #15636d;
     color: white;
 }
-/*media */
-@media screen and (max-width: 800px) and (min-width: 300px){
-    #main{
-        display: flex;
-        flex-wrap: wrap;
-    }
+.description{
+    background-color: white;
 }
