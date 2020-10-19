@@ -1,0 +1,67 @@
+body{
+    font-size: 1rem;
+    text-align: center;
+}
+/*general styling*/
+#main{
+    display: flex;
+    justify-content: center;
+}
+.container-1, .container-2, .container-3, .container-4 {
+    flex: 1;
+    border: 2px solid red;
+    border-radius: 5px;
+    max-width: 15%;
+    height: 700px;
+    margin: 20px;
+}
+.header, .description, .pricing{
+    border: 2px solid purple;
+}
+.header{
+    font-size: .70rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    height: 60px;
+}
+.pricing{
+    padding-top: 60px;
+    line-height: 4px;
+}
+.description{
+    margin: 0;
+    padding: 20px 35px 0 0;
+    line-height: 40px;
+}
+ul{
+    list-style-type: none;
+    font-weight: lighter;
+}
+button{
+    font-weight: bolder;
+    font-size: 1.075rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 15px 75px;
+    border-radius: 5px;
+    border: hidden;
+    color: white;
+    background-color: #45CDA9;
+}
+.footer p{
+    text-transform: uppercase;
+    font-size: .90rem;
+}
+.currency{
+    position: relative;
+    top: -.5em;
+    font-size: 2rem;
+    color: #45CDA9;
+}
+.price{
+    font-size: 3rem;
+    color: #45CDA9;
+    font-weight: bolder;
+}
