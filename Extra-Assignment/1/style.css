@@ -31,15 +31,17 @@ body{
     height: 500px;
     width: 350px;
     border-radius: 4px;
+    transition: border .2s ease;
 }
 .header, .header-2, .header-3, .header-4{
     background-color: white;
-    border: 2px solid #d9d9dd;
     margin: 0;
     padding: 0;
     height: 70px;
     text-align: center;
     padding-top: 15px;
+    border-bottom: 2px solid #d9d9dd;
+    transition: border .2s ease;
 }
 .price{
     padding-top: 50px;
@@ -82,20 +84,18 @@ button{
 }
 .header-3{
     background-color: white;
-    border: 2px solid #FB9537;
 }
-.container-3{
-    border: 2px solid #FB9537;
-}
+
 .btn-1, .btn-2{
     background-color: #69579C;
     color: white;
     letter-spacing: 2px;
 }
 .btn-3{
-    background-color: #FB9537;
+    background-color: #69579c;
     color: white;
     letter-spacing: 2px;
+    transition: .5s ease;
 }
 .btn-4{
     background-color: #A29FAA;
@@ -103,3 +103,25 @@ button{
     letter-spacing: 2px;
     margin-top: 115px;
 }
+
+/* adding hover to buttons and containers */
+
+.container-1:hover > .header,
+.container-2:hover > .header-2,
+.container-3:hover > .header-3,
+.container-4:hover > .header-4{
+    
+    border: 1px solid #FB9537;
+}
+.container-1:hover,
+.container-2:hover,
+.container-3:hover,
+.container-4:hover{
+        border: 1px solid #FB9537;
+}
+
+.btn:hover{
+    background-color: #FB9537;
+    cursor: pointer;
+}
+
